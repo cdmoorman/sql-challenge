@@ -139,13 +139,6 @@ ON employees.emp_no = dep_emp.emp_no
 LEFT JOIN departments
 ON dep_emp.dept_no = departments.dept_no;
 
-select * from departments;
-select * from dep_emp;
-select * from dept_manager;
-select * from employees;
-select * from salaries;
-select * from titles;
-
 -- List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 
 SELECT
